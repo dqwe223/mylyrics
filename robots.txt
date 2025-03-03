@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Sitemap: https://hilyrics.netlify.app/sitemap.xml 
+
+# Allow all crawlers
+User-agent: *
+Disallow:
+
+# Prevent crawling of search results
+Disallow: /search?
+Disallow: /*?q= 
